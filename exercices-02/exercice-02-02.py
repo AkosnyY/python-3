@@ -4,4 +4,6 @@
 # Affichez le résultat.
 
 # réponse 2.2
-
+number1 = 2
+number1_float = float(2)
+print(float(number1_float))

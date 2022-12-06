@@ -8,4 +8,17 @@
 # Affichez ces variables
 
 # réponse 2.1
+answer = 42 
+print(answer)
 
+golden_ratio = 1.61
+print(golden_ratio)
+
+fullname = "salut lalevee evan"
+print(fullname)
+
+love_python = True 
+print(love_python)
+
+license_agreement = None 
+print(license_agreement)

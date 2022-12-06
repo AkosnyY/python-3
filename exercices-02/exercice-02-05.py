@@ -6,4 +6,11 @@
 # Affichez le résultat.
 
 # réponse 2.5
+number4 = 3.1415
+number4_rounded = float(number4)
+print (number4_rounded)
+
+number4_int = int (number4_rounded)
+print(number4_int)
+
 
