@@ -4,4 +4,10 @@
 # Affectez le résultat à la variable `average` et affichez le résultat.
 
 # réponse 3.4
+def Average(lst):
+    return sum(lst) / len(lst)
 
+lst = [1, 2, 3, 5, 8, 13, 21]
+average = Average(lst)
+
+print("Average of the list =", (average))

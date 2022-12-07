@@ -12,3 +12,5 @@ tax_rate = 20
 
 # réponse 3.7
 
+tax_fee = (price*tax_rate)
+print(tax_fee)
