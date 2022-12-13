@@ -36,6 +36,10 @@ my_none = None
 print(my_none)
 print(type(my_none))
 
+#conversion explicite  en booléen 
+# mais attention None ne peut être converti en int ou float  
+print (bool(None))
+
 #string, chaine de caractères 
 #double quote ou sipmle quote, c'est pareil 
 
@@ -93,3 +97,74 @@ c = a + b
 a = c - a 
 b = c - b
 print(a, b)
+
+# transtypage == type casting == conversion d'un type de données
+
+# 0 donne False et tous les autres donnent True
+my_number7 = 0
+# conversion explicite en booléen
+print(bool(my_number7))
+
+# conversion implicite en booléen
+if my_number7:
+    print("L'utilisateur a mis autre chose que zéro")
+else:
+    print("L'utilisateur a mis zéro")
+
+# conversion explicite en booléen
+my_text8 = '0'
+print(bool(my_text8))
+
+# conversion implicite en booléen
+if my_text8:
+    print("L'utilisateur a écrit quelque chose")
+else:
+    print("L'utilisateur n'a rien écrit")
+
+# Listes 
+fruits = [' ananas ','banane', 'cerise']
+# opérateur d'inclusion 
+result = 'ananas ' in fruits 
+print (result)
+result = 'fraise ' in fruits
+print (result)
+
+# conversion explicite en booléen 
+result = bool (fruits )
+print (result)
+
+
+
+#str vers int 
+foo = int(foo)
+print (type(foo))
+
+foo = "123"
+#str vers flaot 
+foo = float(foo)
+print(type(foo))
+
+foo = 3.14 
+# flota vers int,permet de supprimer tout ce qui se trouve derrière la virgule 
+foo = int(foo)
+print(foo)
+
+foo = 3.14 
+# float vers str 
+foo = str(foo)
+print(type(foo))
+
+#
+foo = 2.71 
+# récupérer la partie entière 
+a = int (foo)
+# récupérer la partie après les virgules (c-à-d 0.71)
+b = foo - a
+print (a)
+print (b)
+
+# conversion implicite en booléen
+if fruits:
+    print("la liste contient des éléments ")
+else:
+    print("la liste ne contient aucun des éléments")
