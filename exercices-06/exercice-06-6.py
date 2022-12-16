@@ -4,3 +4,5 @@
 my_list = ['foo', 'bar', 'baz', 'lorem', 'ipsum']
 
 # réponse 6.6
+taill_tableau5 = len(my_list)
+print(taill_tableau5)
