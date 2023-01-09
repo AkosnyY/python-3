@@ -5,3 +5,7 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.11
+
+for my_list in range(3.14):
+    print(f'{my_list = }')
+

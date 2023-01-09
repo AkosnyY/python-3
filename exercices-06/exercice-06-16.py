@@ -11,3 +11,7 @@
 my_list = [2.71, 42, 123, 2, 3.14, 1.61]
 
 # réponse 6.16
+my_list[0], my_list[1] = my_list[1],my_list[0]
+my_list[2], my_list[3] = my_list[3],my_list[2]
+my_list[4], my_list[5] = my_list[5],my_list[4]
+print(my_list)
