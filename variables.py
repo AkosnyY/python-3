@@ -50,7 +50,7 @@ print(my_text1)
 print(my_text2)
 
 # \ caractères d'échappement 
-# \n saut de ligne 
+# \un saut de ligne 
 
 my_text3 = "abc/ndef/nghi"
 my_text4 = "\\"

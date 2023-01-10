@@ -1,6 +1,6 @@
 # Ceci es un repo pour appprendre python 
 
-Amélioration dse scripts python 
+Amélioration des scripts python 
 
 ## Prérequis .
 

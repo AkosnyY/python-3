@@ -53,7 +53,7 @@ print(my_text7)
 my_text8 = f"1 + 1={ 1 + 1 }"
 print(my_text8)
 
-#défini= tion d'une fonction (fonction utilisateur )
+#définition d'une fonction (fonction utilisateur )
 #l'écriture de documentation pour une fonction 
 def hello (name:str)-> None :  
     """Cette fonction dis bonjour a une personne 
@@ -81,7 +81,7 @@ print(my_number5)
 my_number5=my_text9.find('dolor'+my_number5+1)
 print(my_number5)
 
-#copte le nombre d'occurence d'uen str dans une autre str 
+#compte le nombre d'occurence d'une str dans une autre str 
 my_number6 = my_text9.count('ipsum')
 print ( my_number6)
 
