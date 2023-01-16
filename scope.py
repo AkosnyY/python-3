@@ -1,7 +1,7 @@
 # scope ou la portée de variables
 # le scope fonctionne exactement pareil en js 
 
-# foo = 123 # scope global ( n'est ni dans un if ou une liste, elle n'est pas entourer)
+foo = 123 # scope global ( n'est ni dans un if ou une liste, elle n'est pas entourer)
 
 def  bar (): 
     foo = 42 # scope local 

@@ -1,6 +1,6 @@
 # Ceci es un repo pour appprendre python 
 
-Amélioration des scripts python 
+Amélioration des scripts python et js 
 
 ## Prérequis .
 
